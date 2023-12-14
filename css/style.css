@@ -1,0 +1,42 @@
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    border: solid gray 1px;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.form2 {
+    border: solid gray 1px;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.form2__ul {
+list-style: none;
+padding-inline-start: 0px;
+}
+
+.li{
+    border: solid gray 1px;
+    border-radius: 5%;
+    margin: 0;
+}
+
+
+
+.tachado{
+    text-decoration:line-through;
+}
